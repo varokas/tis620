@@ -2,7 +2,11 @@
 
 A golang utility to handle Thai Industrial Standard 620 (tis620) characters.
 
-Currently, this only just convert tis-620 bytes to unicode (utf-8).
+## Example
+
+    import "com.github/varokas/tis620"
+    
+    utf8 := tis620.ToUTF8(tis620bytes)
 
 ## References
 * http://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2531
